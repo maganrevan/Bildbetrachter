@@ -42,6 +42,7 @@ class ViewController: NSViewController {
     
     @IBAction func btnOpenClicked(_ sender: Any) {
         if bildName.stringValue.isEmpty{
+            stackModal(headline: "Leerer Inhalt",content: "Die Pfadangaben sind leer, bitte geben Sie eine Pfadangabe ein.")
             return
         }
         
@@ -49,14 +50,7 @@ class ViewController: NSViewController {
              bildAnzeige.image = meinBild
         }
         else{
-            //den Dialog erzeugen
-            let meineMeldung: NSAlert = NSAlert()
-            //die Texte setzen
-            meineMeldung.messageText = "Fehler"
-            //bitte in einer Zeile eingeben
-            meineMeldung.informativeText = "Die Grafik konnte nicht geladen werden. Bitte prüfen Sie Ihre Eingabe."
-            //und anzeigen
-            meineMeldung.runModal()
+            stackModal(headline: "Fehler", content:"Die Grafik konnte nicht geladen werden. Bitte prüfen Sie Ihre Eingabe.")
         }
         
        
@@ -64,6 +58,13 @@ class ViewController: NSViewController {
     
     @IBAction func btnCloseClicked(_ sender: Any) {
         NSApplication.shared.terminate(self)
+    }
+    
+    func stackModal(headline: String, content: String){
+        let showModal : NSAlert = NSAlert()
+        showModal.messageText = headline
+        showModal.informativeText = content
+        showModal.runModal()
     }
     
 }
