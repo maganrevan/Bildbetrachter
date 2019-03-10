@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DE7E12222350FD7009903C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7E12122350FD7009903C9 /* AppDelegate.swift */; };
+		5DE7E12422350FD7009903C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7E12322350FD7009903C9 /* ViewController.swift */; };
+		5DE7E12622350FD8009903C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE7E12522350FD8009903C9 /* Assets.xcassets */; };
+		5DE7E12922350FD8009903C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE7E12722350FD8009903C9 /* Main.storyboard */; };
+		5DE7E13522350FD8009903C9 /* BildbetrachterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7E13422350FD8009903C9 /* BildbetrachterTests.swift */; };
+		5DE7E14022350FD8009903C9 /* BildbetrachterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7E13F22350FD8009903C9 /* BildbetrachterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DE7E13122350FD8009903C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE7E11622350FD7009903C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE7E11D22350FD7009903C9;
+			remoteInfo = Bildbetrachter;
+		};
+		5DE7E13C22350FD8009903C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE7E11622350FD7009903C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE7E11D22350FD7009903C9;
+			remoteInfo = Bildbetrachter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DE7E11E22350FD7009903C9 /* Bildbetrachter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bildbetrachter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE7E12122350FD7009903C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DE7E12322350FD7009903C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DE7E12522350FD8009903C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DE7E12822350FD8009903C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DE7E12A22350FD8009903C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE7E12B22350FD8009903C9 /* Bildbetrachter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bildbetrachter.entitlements; sourceTree = "<group>"; };
+		5DE7E13022350FD8009903C9 /* BildbetrachterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BildbetrachterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE7E13422350FD8009903C9 /* BildbetrachterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BildbetrachterTests.swift; sourceTree = "<group>"; };
+		5DE7E13622350FD8009903C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE7E13B22350FD8009903C9 /* BildbetrachterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BildbetrachterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE7E13F22350FD8009903C9 /* BildbetrachterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BildbetrachterUITests.swift; sourceTree = "<group>"; };
+		5DE7E14122350FD8009903C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DE7E11B22350FD7009903C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE7E12D22350FD8009903C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE7E13822350FD8009903C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DE7E11522350FD7009903C9 = {
+			isa = PBXGroup;
+			children = (
+				5DE7E12022350FD7009903C9 /* Bildbetrachter */,
+				5DE7E13322350FD8009903C9 /* BildbetrachterTests */,
+				5DE7E13E22350FD8009903C9 /* BildbetrachterUITests */,
+				5DE7E11F22350FD7009903C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DE7E11F22350FD7009903C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DE7E11E22350FD7009903C9 /* Bildbetrachter.app */,
+				5DE7E13022350FD8009903C9 /* BildbetrachterTests.xctest */,
+				5DE7E13B22350FD8009903C9 /* BildbetrachterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DE7E12022350FD7009903C9 /* Bildbetrachter */ = {
+			isa = PBXGroup;
+			children = (
+				5DE7E12122350FD7009903C9 /* AppDelegate.swift */,
+				5DE7E12322350FD7009903C9 /* ViewController.swift */,
+				5DE7E12522350FD8009903C9 /* Assets.xcassets */,
+				5DE7E12722350FD8009903C9 /* Main.storyboard */,
+				5DE7E12A22350FD8009903C9 /* Info.plist */,
+				5DE7E12B22350FD8009903C9 /* Bildbetrachter.entitlements */,
+			);
+			path = Bildbetrachter;
+			sourceTree = "<group>";
+		};
+		5DE7E13322350FD8009903C9 /* BildbetrachterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE7E13422350FD8009903C9 /* BildbetrachterTests.swift */,
+				5DE7E13622350FD8009903C9 /* Info.plist */,
+			);
+			path = BildbetrachterTests;
+			sourceTree = "<group>";
+		};
+		5DE7E13E22350FD8009903C9 /* BildbetrachterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE7E13F22350FD8009903C9 /* BildbetrachterUITests.swift */,
+				5DE7E14122350FD8009903C9 /* Info.plist */,
+			);
+			path = BildbetrachterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DE7E11D22350FD7009903C9 /* Bildbetrachter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE7E14422350FD8009903C9 /* Build configuration list for PBXNativeTarget "Bildbetrachter" */;
+			buildPhases = (
+				5DE7E11A22350FD7009903C9 /* Sources */,
+				5DE7E11B22350FD7009903C9 /* Frameworks */,
+				5DE7E11C22350FD7009903C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bildbetrachter;
+			productName = Bildbetrachter;
+			productReference = 5DE7E11E22350FD7009903C9 /* Bildbetrachter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DE7E12F22350FD8009903C9 /* BildbetrachterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE7E14722350FD8009903C9 /* Build configuration list for PBXNativeTarget "BildbetrachterTests" */;
+			buildPhases = (
+				5DE7E12C22350FD8009903C9 /* Sources */,
+				5DE7E12D22350FD8009903C9 /* Frameworks */,
+				5DE7E12E22350FD8009903C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE7E13222350FD8009903C9 /* PBXTargetDependency */,
+			);
+			name = BildbetrachterTests;
+			productName = BildbetrachterTests;
+			productReference = 5DE7E13022350FD8009903C9 /* BildbetrachterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DE7E13A22350FD8009903C9 /* BildbetrachterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE7E14A22350FD8009903C9 /* Build configuration list for PBXNativeTarget "BildbetrachterUITests" */;
+			buildPhases = (
+				5DE7E13722350FD8009903C9 /* Sources */,
+				5DE7E13822350FD8009903C9 /* Frameworks */,
+				5DE7E13922350FD8009903C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE7E13D22350FD8009903C9 /* PBXTargetDependency */,
+			);
+			name = BildbetrachterUITests;
+			productName = BildbetrachterUITests;
+			productReference = 5DE7E13B22350FD8009903C9 /* BildbetrachterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DE7E11622350FD7009903C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Magnus Kruschwitz";
+				TargetAttributes = {
+					5DE7E11D22350FD7009903C9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5DE7E12F22350FD8009903C9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5DE7E11D22350FD7009903C9;
+					};
+					5DE7E13A22350FD8009903C9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5DE7E11D22350FD7009903C9;
+					};
+				};
+			};
+			buildConfigurationList = 5DE7E11922350FD7009903C9 /* Build configuration list for PBXProject "Bildbetrachter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DE7E11522350FD7009903C9;
+			productRefGroup = 5DE7E11F22350FD7009903C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DE7E11D22350FD7009903C9 /* Bildbetrachter */,
+				5DE7E12F22350FD8009903C9 /* BildbetrachterTests */,
+				5DE7E13A22350FD8009903C9 /* BildbetrachterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DE7E11C22350FD7009903C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE7E12622350FD8009903C9 /* Assets.xcassets in Resources */,
+				5DE7E12922350FD8009903C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE7E12E22350FD8009903C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE7E13922350FD8009903C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DE7E11A22350FD7009903C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE7E12422350FD7009903C9 /* ViewController.swift in Sources */,
+				5DE7E12222350FD7009903C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE7E12C22350FD8009903C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE7E13522350FD8009903C9 /* BildbetrachterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE7E13722350FD8009903C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE7E14022350FD8009903C9 /* BildbetrachterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DE7E13222350FD8009903C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE7E11D22350FD7009903C9 /* Bildbetrachter */;
+			targetProxy = 5DE7E13122350FD8009903C9 /* PBXContainerItemProxy */;
+		};
+		5DE7E13D22350FD8009903C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE7E11D22350FD7009903C9 /* Bildbetrachter */;
+			targetProxy = 5DE7E13C22350FD8009903C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DE7E12722350FD8009903C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DE7E12822350FD8009903C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DE7E14222350FD8009903C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DE7E14322350FD8009903C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5DE7E14522350FD8009903C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bildbetrachter/Bildbetrachter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Bildbetrachter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Magnus.Bildbetrachter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		5DE7E14622350FD8009903C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bildbetrachter/Bildbetrachter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Bildbetrachter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Magnus.Bildbetrachter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		5DE7E14822350FD8009903C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BildbetrachterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Magnus.BildbetrachterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bildbetrachter.app/Contents/MacOS/Bildbetrachter";
+			};
+			name = Debug;
+		};
+		5DE7E14922350FD8009903C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BildbetrachterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Magnus.BildbetrachterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bildbetrachter.app/Contents/MacOS/Bildbetrachter";
+			};
+			name = Release;
+		};
+		5DE7E14B22350FD8009903C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BildbetrachterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Magnus.BildbetrachterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Bildbetrachter;
+			};
+			name = Debug;
+		};
+		5DE7E14C22350FD8009903C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BildbetrachterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Magnus.BildbetrachterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Bildbetrachter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DE7E11922350FD7009903C9 /* Build configuration list for PBXProject "Bildbetrachter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE7E14222350FD8009903C9 /* Debug */,
+				5DE7E14322350FD8009903C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE7E14422350FD8009903C9 /* Build configuration list for PBXNativeTarget "Bildbetrachter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE7E14522350FD8009903C9 /* Debug */,
+				5DE7E14622350FD8009903C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE7E14722350FD8009903C9 /* Build configuration list for PBXNativeTarget "BildbetrachterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE7E14822350FD8009903C9 /* Debug */,
+				5DE7E14922350FD8009903C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE7E14A22350FD8009903C9 /* Build configuration list for PBXNativeTarget "BildbetrachterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE7E14B22350FD8009903C9 /* Debug */,
+				5DE7E14C22350FD8009903C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DE7E11622350FD7009903C9 /* Project object */;
+}
